@@ -36,6 +36,8 @@ public class ArrayGradebook {
             grades[i] = grade;
         }
 
+        students[0] = "TEST";
+
         // Print class roster
         System.out.println("\nClass roster:");
         double sum = 0.0;
