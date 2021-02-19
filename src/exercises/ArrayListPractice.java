@@ -36,10 +36,6 @@ public class ArrayListPractice {
         System.out.println(findWords(myWords2, letters));
     }
 
-
-
-
-
     //Find and sub all even numbers
     public static Integer sumEven(ArrayList<Integer> inArr) {
         int sum1 = 0;
