@@ -11,7 +11,7 @@ public class HashMapPractice {
         Scanner input = new Scanner(System.in);
         Integer newStudentId;
 
-        System.out.println("Enter student ID Number (or Zero(0) to finish):");
+        System.out.println("Enter student ID Number (press Zero(0) to finish):");
 
         do {
             System.out.print("Student Id: ");
@@ -26,7 +26,10 @@ public class HashMapPractice {
                 input.nextLine();
             }
 
+
         } while (newStudentId > 0);
+
+        input.close();
 
         // Print class roster
         System.out.println("\nClass roster:");
