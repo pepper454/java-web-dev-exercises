@@ -1,8 +1,6 @@
 package exercises;
 
-import java.util.ArrayList;
 import java.util.Arrays;
-import java.util.Scanner;
 
 public class ArrayPractice {
     public static void main(String[] args){
@@ -13,9 +11,9 @@ public class ArrayPractice {
 
         //print all
         System.out.println("Print All Numbers:");
-        for (int i : myArr){
+        //for (int i : myArr){
             //System.out.println(i);
-        }
+        //}
         System.out.println(Arrays.toString(myArr));
 
         //print odd
