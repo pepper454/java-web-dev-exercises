@@ -47,8 +47,16 @@ public class Scrap {
         //Scrap test = new Scrap("Hello0blabla", "Hello1blabla", "Hello2See");
         Scrap test0 = new Scrap();
         System.out.println(test0.getMessage0() + " " + test0.getMessage1() + " " + test0.getMessage2() + " " + test0.getMessage3());
+
+
+
         Scrap test1 = new Scrap("AAAAA");
+        test1.setMessage3("DDDDD");
         System.out.println(test1.getMessage0() + " " + test1.getMessage1() + " " + test1.getMessage2() + " " + test1.getMessage3());
+        test1.setMessage2("CCCCC");
+        System.out.println(test1.getMessage0() + " " + test1.getMessage1() + " " + test1.getMessage2() + " " + test1.getMessage3());
+        //test1.setMessage2("AAAAA",null ,null, "DDDDD");
+        //System.out.println(test1.getMessage0() + " " + test1.getMessage1() + " " + test1.getMessage2() + " " + test1.getMessage3());
         Scrap test2 = new Scrap("AAAAA", "BBBBB");
         System.out.println(test2.getMessage0() + " " + test2.getMessage1() + " " + test2.getMessage2() + " " + test2.getMessage3());
         Scrap test3 = new Scrap("AAAAA", "BBBBB", "CCCCC");
